@@ -1,0 +1,61 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  background-color: rgb(36, 36, 36);
+  justify-content: flex-end;
+}
+
+.navbar input {
+  margin: 4px;
+  border-radius: 3px;
+  padding: 5px;
+  font-size: 14.5pt;
+  height: 30px;
+  border: none;
+  outline: none;
+  width: 300px;
+  box-shadow: none;
+  border-left: 6px solid rgb(185, 75, 67);
+}
+
+.navbar button {
+  border: none;
+  outline: none;
+  padding: 5px;
+  height: 40px;
+  border-radius: 3px;
+  background-color: rgb(238, 106, 96);
+
+  margin: 2px;
+  transition: 0.3s;
+  font-size: 13pt;
+  cursor: pointer;
+}
+
+.navbar button:hover {
+  background-color: rgba(206, 77, 67, 0.918);
+  box-shadow: 1px 1px 4px rgba(177, 7, 7, 0.808);
+}
+
+.navbar img {
+  margin: auto;
+  margin-left: 4px;
+  width: 35px;
+  height: 35px;
+  animation: mymove ease infinite;
+  animation-delay: 1.5s;
+  animation-duration: 3.5s;
+  border-radius: 60%;
+  transition: background-color .6s;
+}
+
+@keyframes mymove {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
